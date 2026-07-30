@@ -1,0 +1,93 @@
+
+h1{
+    background-color: rgb(83, 71, 63);
+    text-align: center;
+    
+}
+.box{
+    background-color: white;
+    color: white;
+    padding: 20px;
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.navbar{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    background-color: rgb(5, 1, 1);
+    gap: 15px;
+}
+.navbar a:hover{
+    color: rgb(104, 85, 85);
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(224, 217, 217);
+    text-align: flex-start;
+    font-family: Arial;
+}
+p{
+    border-radius: 40px;
+    justify-content: flex-start;
+    
+}
+img{
+    align-items:  flex-end;
+    background: blue;
+    padding:10px;
+    margin: 20px;
+    width: 300px;
+    border: 5px solid block;
+}
+.strong{
+    align-items: flex-start;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;background-color: burlywood;
+}
+
+
+table{
+    row-gap: 90PX;
+    column-gap: 50PX;
+}
+.login-container{
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgb(39, 80, 105);
+}
+.nafiu{
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    background-color: #f4f7f6;
+    align-items: center;
+    font-family: sans-serif;
+}
+.input-group{
+       margin-bottom: 20px;
+}
+.input-group label{
+    display: block;
+    margin-bottom: 7px;
+}
+.input-group input{
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 100%;
+}
+.login-button{
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    background:#007bff;
+}
